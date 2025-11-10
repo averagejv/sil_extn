@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "better mobile guardian",
+  "version": "1.0",
+  "description": "no videos until you do math",
+  "content_scripts": [
+    {
+      "matches": ["*://*.youtube.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
+
